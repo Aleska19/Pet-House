@@ -1,0 +1,12 @@
+:root{
+    /* Colores principales del sitio web */
+    --primary-color: #f48326; /* NARANJA: botones, acentos, iconos, hover */
+    --secondary-color: #457B9D; /* AZUL: encabezados, header, footer, enlaces */
+    --background-color: #FAF3E0; /* BEIGE CLARO: fondo de la página */
+    --text-color: #2F2F2F; /* GRIS OSCURO: texto principal */
+    --color-price: #8AC926; /* VERDE: precios, ofertas */
+
+    /* Tipografía */
+    --font-title: 'Poppins', sans-serif; /* Encabezados, títulos de productos, logo */
+    --font-body: 'Nunito', sans-serif; /* Descripciones, menús, botones */
+}
