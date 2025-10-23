@@ -93,8 +93,11 @@ body{
 .hero-btn a{
     text-decoration: none;
     /* font-size: 1.2rem; */
-    color: white;
-    border: 2px solid var(--primary-color);
+        background: linear-gradient(to right, #f48326, #457B9D, #f48326);
+    background-size: 200% 200%;
+    animation: gradientMove 15s ease infinite;
+    color: black;
+    border: 1px solid black;
     font-family: var(--font-body);
     border-radius: 50px;
     padding: 1rem;
@@ -169,3 +172,157 @@ body{
 
 
 }
+
+/*reserva*/
+.reserva-section{
+    padding: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reserva-info{
+    text-align: center;
+    max-width: 1000px;
+    font-family: var(--font-body);
+    color: var(--text-color);
+    margin: 2rem 0 2rem 0;
+    
+}
+
+.reseva-btn{
+    margin-top: 2rem;
+
+}
+
+.reseva-btn a{
+    text-decoration: none;
+    /* font-size: 1.2rem; */
+    color: black;
+    border: 2px solid var(--primary-color);
+    font-family: var(--font-body);
+    border-radius: 50px;
+    padding: 1rem;
+
+}
+
+/*Promociones bancarias*/
+.promotions {
+  background: linear-gradient(180deg, #FAF3E0 0%, #457B9D 250%);
+  padding: 3rem 1.5rem;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.promotions h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  font-family: var(--font-title);
+  font-weight: 700;
+}
+
+.promotions .intro {
+  margin-bottom: 2rem;
+  color: var(--text-color);
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+}
+
+/* --- Marquee horizontal --- */
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 2rem;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: slide-horizontal 20s linear infinite;
+}
+
+.marquee-content img {
+  height: 30px;
+  margin: 0 2rem;
+  vertical-align: middle;
+  filter: grayscale(0.2);
+  transition: filter 0.3s ease;
+}
+
+.marquee-content img:hover {
+  filter: grayscale(0);
+}
+
+@keyframes slide-horizontal {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* --- Texto de promociones --- */
+.promo-text p {
+  font-size: 1.1rem;
+  margin: 0.4rem 0;
+  font-weight: 600;
+  color: var(--primary-color);
+  font-family: var(--font-body);
+}
+
+/* --- Botón CTA --- */
+.btn-primary {
+  display: inline-block;
+  padding: 0.9rem 1.8rem;
+  background-color: #ff6b6b;
+  color: #fff;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s, background 0.3s;
+  margin-top: 1.5rem;
+}
+.btn-primary:hover {
+  transform: scale(1.05);
+  background-color: #ff8585;
+}
+
+/* --- Efecto de aparición con scroll --- */
+.scroll-visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .promotions {
+    padding: 2rem 1rem;
+  }
+
+  .promotions h2 {
+    font-size: 1.6rem;
+  }
+
+  .promotions .intro {
+    font-size: 1rem;
+  }
+
+  .marquee-content img {
+    height: 40px;
+    margin: 0 1rem;
+  }
+
+  .promo-text p {
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    padding: 0.8rem 1.4rem;
+    font-size: 1rem;
+  }
+}
+
