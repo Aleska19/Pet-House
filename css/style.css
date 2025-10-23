@@ -28,7 +28,8 @@ body{
 .header{
     display: flex;
     flex-direction: column;
-    background: black;
+    background:  black;
+    opacity: 0.95;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -72,13 +73,24 @@ body{
     font-size: 2.5rem;
 }
 
+.hero-section h2{
+    color: white;
+    font-family: var(--font-body);
+    margin-bottom: 1rem;
+}
+
 .hero-section p{
     color: white;
     font-family: var(--font-body);
     margin-bottom: 4rem;
 }
 
-.hero-section a{
+.hero-btn{
+    display: flex;
+    gap: 2rem;
+}
+
+.hero-btn a{
     text-decoration: none;
     /* font-size: 1.2rem; */
     color: white;
