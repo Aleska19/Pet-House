@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Alimento premium perro adulto",
+    "price": 18,
+    "category": "perros",
+    "subcategory": "alimentos",
+    "img": "../assets/img/comida-perro.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cama suave para perro",
+    "price": 40,
+    "category": "perros",
+    "subcategory": "camas",
+    "img": "../assets/img/cama-perro.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Alimento húmedo para gato",
+    "price": 10,
+    "category": "gatos",
+    "subcategory": "alimentos",
+    "img": "../assets/img/humedo-gato.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Rascador robusto gato",
+    "price": 25,
+    "category": "gatos",
+    "subcategory": "accesorios",
+    "img": "../assets/img/rascador.jpg"
+  },
+
+    {
+    "id": 1,
+    "name": "Alimento premium perro adulto",
+    "price": 18,
+    "category": "perros",
+    "subcategory": "alimentos",
+    "img": "../assets/img/comida-perro.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cama suave para perro",
+    "price": 40,
+    "category": "perros",
+    "subcategory": "camas",
+    "img": "../assets/img/cama-perro.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Alimento húmedo para gato",
+    "price": 10,
+    "category": "gatos",
+    "subcategory": "alimentos",
+    "img": "../assets/img/humedo-gato.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Rascador robusto gato",
+    "price": 25,
+    "category": "gatos",
+    "subcategory": "accesorios",
+    "img": "../assets/img/rascador.jpg"
+  }
+]
