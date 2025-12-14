@@ -278,7 +278,7 @@ body{
 .btn-primary {
   display: inline-block;
   padding: 0.9rem 1.8rem;
-  background-color: #ff6b6b;
+  background-color: var(--primary-color);
   color: #fff;
   border-radius: 12px;
   text-decoration: none;
