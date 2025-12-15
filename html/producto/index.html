@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/components/variables.css">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/components/navbar.css">
-    <link rel="stylesheet" href="../../css/components/cards.css">
+    <link rel="stylesheet" href="../../css/components/product-detail.css">
     <link rel="stylesheet" href="../../css/components/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
         integrity="sha512-vb3p+..." crossorigin="anonymous" referrerpolicy="no-referrer">
-
-    <title>Tienda | Pet House</title>
+    
+    <title>Detalle del Producto | Pet House</title>
 </head>
-
 <body>
 
     <header class="header">
@@ -33,29 +31,20 @@
         </div>
         <nav class="navbar">
             <ul class="nav-links">
-                <li>
-                    <a href="/">Inicio</a>
-                </li>
-                <li>
-                    <a href="/html/tienda/index.html" class="dropBtn">Tienda</a>
-                </li>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/html/tienda/index.html">Tienda</a></li>
                 <li><a href="/">Turnos</a></li>
-                <li><a href="./html/nosotros/index.html">Nosotros</a></li>
-                <li><a href="./html/contacto/index.html">Contacto</a></li>
+                <li><a href="/html/nosotros/index.html">Nosotros</a></li>
+                <li><a href="/html/contacto/index.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="products-section">
-            <h2 class="title">Tienda</h2>
-            <div id="product-list" class="products-container"></div>
+        <section class="product-detail-section">
+            <div id="product-detail-container"></div>
         </section>
     </main>
-
-
-
-
 
     <footer>
         <div class="footer-container">
@@ -64,10 +53,9 @@
                 <p>Amor, cuidado y productos de calidad para tus mascotas. 🐶🐱</p>
             </div>
 
-
             <div class="footer-contact">
                 <h4>Contacto</h4>
-                <p>Email: <a href="mailto:aleskacrf@gmail.com">info@pethouse.com</a></p>
+                <p>Email: <a href="mailto:info@pethouse.com">info@pethouse.com</a></p>
                 <p>Teléfono: +54 11 1234-5678</p>
                 <p>Ubicación: Buenos Aires, Argentina</p>
             </div>
@@ -85,7 +73,6 @@
         </div>
     </footer>
 
-    <script type="module" src="../../js/pages/shop.js"></script>
+    <script type="module" src="../../js/pages/product-detail.js"></script>
 </body>
-
 </html>

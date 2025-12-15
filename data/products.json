@@ -5,7 +5,17 @@
     "price": 18,
     "category": "perros",
     "subcategory": "alimentos",
-    "img": "../assets/images/comida-perro.jpg"
+    "img": "../../assets/images/comida-perro.jpg",
+    "description": "Alimento balanceado premium para perros adultos de todas las razas. Formulado con ingredientes naturales de alta calidad que garantizan una nutrición completa y balanceada.",
+    "features": [
+      "Proteínas de alta calidad para masa muscular",
+      "Omega 3 y 6 para pelaje brillante",
+      "Glucosamina para articulaciones saludables",
+      "Sin colorantes ni conservantes artificiales",
+      "Digestión óptima con prebióticos"
+    ],
+    "weight": "15kg",
+    "stock": 25
   },
   {
     "id": 2,
@@ -13,7 +23,17 @@
     "price": 40,
     "category": "perros",
     "subcategory": "camas",
-    "img": "../assets/images/cama-perro.jpg"
+    "img": "../../assets/images/dog-category.jpg",
+    "description": "Cama ultra suave y cómoda diseñada para brindar el máximo confort a tu perro. Ideal para razas medianas y grandes.",
+    "features": [
+      "Relleno de espuma viscoelástica",
+      "Funda extraíble y lavable",
+      "Base antideslizante",
+      "Tejido resistente a arañazos",
+      "Tamaño: 80cm x 60cm"
+    ],
+    "weight": "2kg",
+    "stock": 15
   },
   {
     "id": 3,
@@ -21,7 +41,17 @@
     "price": 10,
     "category": "gatos",
     "subcategory": "alimentos",
-    "img": "../assets/images/humedo-gato.jpg"
+    "img": "../../assets/images/cat-category.jpg",
+    "description": "Comida húmeda premium para gatos con trozos de carne en deliciosa salsa. Perfecta para complementar la alimentación diaria o como premio especial.",
+    "features": [
+      "85% carne y derivados",
+      "Alto contenido de proteína",
+      "Taurina para salud cardíaca",
+      "Rico en omega 3 y 6",
+      "Presentación: 12 latas x 85g"
+    ],
+    "weight": "1kg",
+    "stock": 40
   },
   {
     "id": 4,
@@ -29,6 +59,16 @@
     "price": 25,
     "category": "gatos",
     "subcategory": "accesorios",
-    "img": "../assets/images/rascador.jpg"
+    "img": "../../assets/images/cat-category.jpg",
+    "description": "Rascador vertical de alta resistencia para gatos. Protege tus muebles mientras tu gato ejercita sus garras y se divierte.",
+    "features": [
+      "Poste cubierto con sisal natural",
+      "Base estable y resistente",
+      "Plataforma superior con cojín",
+      "Juguete colgante incluido",
+      "Altura: 60cm"
+    ],
+    "weight": "5kg",
+    "stock": 12
   }
 ]

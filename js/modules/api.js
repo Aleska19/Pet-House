@@ -7,3 +7,13 @@ export async function getProducts(){
         return [];
     }
 }
+
+export async function getProductById(id){
+    try{
+        const products = await getProducts();
+        return products.find(product => product.id === parseInt(id));
+    }catch(error){
+        console.error("fetching product error:", error);
+        return null;
+    }
+}
