@@ -32,19 +32,23 @@
                 <h1>PET HOUSE</h1>
             </div>
             <div class="nav-icons">
-                <a href="#"><i class="fa-solid fa-user"></i></a>
-                <a href="#" id="shopingCart"><i class="fa-solid fa-cart-shopping"></i>0</a>
+                <a href="#" aria-label="Perfil" title="Perfil">
+                    <i class="fa-solid fa-user" aria-hidden="true"></i>
+                </a>
+                <a href="./html/carrito/index.html" aria-label="Carrito" title="Carrito">
+                    <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+                </a>
             </div>
         </div>
         <nav class="navbar">
             <ul class="nav-links">
                 <li>
-                    <a href="/">Inicio</a>
+                    <a href="./index.html">Inicio</a>
                 </li>
                 <li>
-                    <a href="/html/tienda/index.html" class="dropBtn">Tienda</a>
+                    <a href="./html/tienda/index.html" class="dropBtn">Tienda</a>
                 </li>
-                <li><a href="/">Turnos</a></li>
+                <li><a href="#">Turnos</a></li>
                 <li><a href="./html/nosotros/index.html">Nosotros</a></li>
                 <li><a href="./html/contacto/index.html">Contacto</a></li>
             </ul>
@@ -64,60 +68,24 @@
         <section class="categories-section">
             <h2 class="title">Categorias</h2>
             <div class="categories-container">
-                <div class="category-item">
-                    <img class="img-category" src="./assets/images/dog-category.jpg" alt="">
+                <a href="./html/tienda/index.html?category=perros" class="category-item">
+                    <img class="img-category" src="./assets/images/dog-category.jpg" alt="Categoría Perros">
                     <h3>Perros</h3>
-                </div>
+                </a>
 
-                <div class="category-item">
-                    <img class="img-category" src="./assets/images/cat-category.jpg" alt="">
+                <a href="./html/tienda/index.html?category=gatos" class="category-item">
+                    <img class="img-category" src="./assets/images/cat-category.jpg" alt="Categoría Gatos">
                     <h3>Gatos</h3>
-                </div>
+                </a>
             </div>
         </section>
 
 
         <section class="products-section">
             <h2 class="title">Productos destacados</h2>
-            <div class="products-container">
-                <div class="product-item">
-                    <img src="" alt="">
-                    <h3>Titulo del producto</h3>
-                    <p>descripcion </p>
-                    <p class="price">$</p>
-                </div>
-                <div class="product-item">
-                    <img src="" alt="">
-                    <h3>Titulo del producto</h3>
-                    <p>descripcion </p>
-                    <p class="price">$</p>
-                </div>
-                <div class="product-item">
-                    <img src="" alt="">
-                    <h3>Titulo del producto</h3>
-                    <p>descripcion </p>
-                    <p class="price">$</p>
-                </div>
-                <div class="product-item">
-                    <img src="" alt="">
-                    <h3>Titulo del producto</h3>
-                    <p>descripcion </p>
-                    <p class="price">$</p>
-                </div>
-                <div class="product-item">
-                    <img src="" alt="">
-                    <h3>Titulo del producto</h3>
-                    <p>descripcion </p>  
-                    <p class="price">$</p>
-                </div>
-                <div class="product-item">
-                    <img src="" alt="">
-                    <h3>Titulo del producto</h3>
-                    <p>descripcion </p>
-                    <p class="price">$</p>
-                </div>
+            <div id="featured-products" class="products-container">
+                <!-- Los productos se cargarán dinámicamente aquí -->
             </div>
-
         </section>
 
         <div class="reserva-section">
@@ -196,8 +164,10 @@
     </footer>
 
     <script type="module" src="./js/pages/promocion.js"></script>
+    <script type="module" src="./js/pages/shop.js"></script>
+    <script type="module" src="../../js/pages/cart.js"></script>
 
-
+    <script type="module" src="./js/pages/promocion.js"></script>
 </body>
 
 </html>

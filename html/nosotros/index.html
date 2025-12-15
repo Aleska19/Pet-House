@@ -19,8 +19,12 @@
                 <h1>PET HOUSE</h1>
             </div>
             <div class="nav-icons">
-                <a href="#"><i class="fa-solid fa-user"></i></a>
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i>0</a>
+                <a href="#" aria-label="Perfil" title="Perfil">
+                    <i class="fa-solid fa-user" aria-hidden="true"></i>
+                </a>
+                <a href="/html/carrito/index.html" aria-label="Carrito" title="Carrito">
+                    <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+                </a>
             </div>
         </div>
         <nav class="navbar">
@@ -28,17 +32,12 @@
                 <li>
                     <a href="../../index.html">Inicio</a>
                 </li>
-                <li class="dropdown">
-                    <a class="dropBtn">Tienda 🔽</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/">🐶Perros</a></li>
-                        <li><a href="/">😺Gatos</a></li>
-                        <li><a href="/">Accesorios</a></li>
-                    </ul>
+                <li>
+                    <a href="../../html/tienda/index.html" class="dropBtn">Tienda</a>
                 </li>
-                <li><a href="/">Turnos</a></li>
-                <li><a href="../nosotros/index.html">Nosotros</a></li>
-                <li><a href="../contacto/index.html">Contacto</a></li>
+                <li><a href="#">Turnos</a></li>
+                <li><a href="../../html/nosotros/index.html">Nosotros</a></li>
+                <li><a href="../../html/contacto/index.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -64,6 +63,8 @@
             </div>
         </div>
     </main>
+    <script type="module" src="../../js/pages/shop.js"></script>
+    <script type="module" src="../../js/pages/cart.js"></script>
 
 </body>
 

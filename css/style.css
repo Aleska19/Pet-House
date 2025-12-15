@@ -132,13 +132,32 @@ body{
 }
 
 .category-item{
-    text-align: center; 
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.category-item:hover {
+    transform: translateY(-10px);
+}
+
+.category-item:hover h3 {
+    color: var(--primary-color);
 }
 
 .category-item img{
     width: 200px;
     height: auto;
     border-radius: 50%;
+    transition: all 0.3s ease;
+    border: 3px solid transparent;
+}
+
+.category-item:hover img {
+    border-color: var(--primary-color);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 /*nosotros*/

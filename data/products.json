@@ -6,6 +6,7 @@
     "category": "perros",
     "subcategory": "alimentos",
     "img": "../../assets/images/comida-perro.jpg",
+    "featured": true,
     "description": "Alimento balanceado premium para perros adultos de todas las razas. Formulado con ingredientes naturales de alta calidad que garantizan una nutrición completa y balanceada.",
     "features": [
       "Proteínas de alta calidad para masa muscular",
@@ -24,6 +25,7 @@
     "category": "perros",
     "subcategory": "camas",
     "img": "../../assets/images/dog-category.jpg",
+    "featured": true,
     "description": "Cama ultra suave y cómoda diseñada para brindar el máximo confort a tu perro. Ideal para razas medianas y grandes.",
     "features": [
       "Relleno de espuma viscoelástica",
@@ -42,6 +44,7 @@
     "category": "gatos",
     "subcategory": "alimentos",
     "img": "../../assets/images/cat-category.jpg",
+    "featured": true,
     "description": "Comida húmeda premium para gatos con trozos de carne en deliciosa salsa. Perfecta para complementar la alimentación diaria o como premio especial.",
     "features": [
       "85% carne y derivados",
@@ -60,6 +63,7 @@
     "category": "gatos",
     "subcategory": "accesorios",
     "img": "../../assets/images/cat-category.jpg",
+    "featured": false,
     "description": "Rascador vertical de alta resistencia para gatos. Protege tus muebles mientras tu gato ejercita sus garras y se divierte.",
     "features": [
       "Poste cubierto con sisal natural",
@@ -70,5 +74,43 @@
     ],
     "weight": "5kg",
     "stock": 12
+  },
+  {
+    "id": 5,
+    "name": "Collar ajustable para perro",
+    "price": 12,
+    "category": "perros",
+    "subcategory": "accesorios",
+    "img": "../../assets/images/dog-category.jpg",
+    "featured": false,
+    "description": "Collar resistente y ajustable para perros de todas las razas. Material duradero y cómodo.",
+    "features": [
+      "Material nylon resistente",
+      "Ajustable de 30cm a 50cm",
+      "Hebilla de seguridad",
+      "Anilla para correa",
+      "Disponible en varios colores"
+    ],
+    "weight": "0.2kg",
+    "stock": 30
+  },
+  {
+    "id": 6,
+    "name": "Juguete interactivo para gato",
+    "price": 8,
+    "category": "gatos",
+    "subcategory": "juguetes",
+    "img": "../../assets/images/cat-category.jpg",
+    "featured": false,
+    "description": "Juguete interactivo que estimula el instinto cazador de tu gato. Horas de diversión garantizadas.",
+    "features": [
+      "Materiales no tóxicos",
+      "Estimula actividad física",
+      "Plumas naturales",
+      "Mango ergonómico",
+      "Fácil de limpiar"
+    ],
+    "weight": "0.1kg",
+    "stock": 50
   }
 ]

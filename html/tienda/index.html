@@ -26,7 +26,7 @@
                 <a href="#" aria-label="Perfil" title="Perfil">
                     <i class="fa-solid fa-user" aria-hidden="true"></i>
                 </a>
-                <a href="/html/carrito/index.html" aria-label="Carrito" title="Carrito">
+                <a href="../../html/carrito/index.html" aria-label="Carrito" title="Carrito">
                     <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
                 </a>
             </div>
@@ -34,14 +34,14 @@
         <nav class="navbar">
             <ul class="nav-links">
                 <li>
-                    <a href="/">Inicio</a>
+                    <a href="../../index.html">Inicio</a>
                 </li>
                 <li>
-                    <a href="/html/tienda/index.html" class="dropBtn">Tienda</a>
+                    <a href="../../html/tienda/index.html" class="dropBtn">Tienda</a>
                 </li>
-                <li><a href="/">Turnos</a></li>
-                <li><a href="./html/nosotros/index.html">Nosotros</a></li>
-                <li><a href="./html/contacto/index.html">Contacto</a></li>
+                <li><a href="#">Turnos</a></li>
+                <li><a href="../../html/nosotros/index.html">Nosotros</a></li>
+                <li><a href="../../html/contacto/index.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -49,6 +49,56 @@
     <main>
         <section class="products-section">
             <h2 class="title">Tienda</h2>
+            
+            <!-- Filtros -->
+            <div class="filters-container">
+                <div class="filter-group">
+                    <label for="search-input">
+                        <i class="fa-solid fa-search"></i> Buscar:
+                    </label>
+                    <input type="text" id="search-input" placeholder="Buscar productos...">
+                </div>
+                
+                <div class="filter-group">
+                    <label for="category-filter">
+                        <i class="fa-solid fa-filter"></i> Categoría:
+                    </label>
+                    <select id="category-filter">
+                        <option value="todos">Todas</option>
+                        <option value="perros">Perros</option>
+                        <option value="gatos">Gatos</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="subcategory-filter">
+                        <i class="fa-solid fa-tag"></i> Tipo:
+                    </label>
+                    <select id="subcategory-filter">
+                        <option value="todos">Todos</option>
+                        <option value="alimentos">Alimentos</option>
+                        <option value="camas">Camas</option>
+                        <option value="accesorios">Accesorios</option>
+                        <option value="juguetes">Juguetes</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="sort-filter">
+                        <i class="fa-solid fa-arrow-down-short-wide"></i> Ordenar:
+                    </label>
+                    <select id="sort-filter">
+                        <option value="">Sin orden</option>
+                        <option value="asc">Precio: Menor a Mayor</option>
+                        <option value="desc">Precio: Mayor a Menor</option>
+                    </select>
+                </div>
+                
+                <button id="clear-filters" class="btn-clear-filters">
+                    <i class="fa-solid fa-rotate-right"></i> Limpiar filtros
+                </button>
+            </div>
+            
             <div id="product-list" class="products-container"></div>
         </section>
     </main>
